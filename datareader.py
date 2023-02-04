@@ -7,7 +7,7 @@ from scipy.io import loadmat
 import quickspikes as qs
 np.set_printoptions(threshold=np.inf)
 
-data = loadmat('E:/DATA/DECODER/gestures/data/bp/bp_fingerflex.mat')
+data = loadmat('E:/DATA/DECODER/gestures/data/bp/bp_freeform.mat')
 
 samples=data['data'][:2000]
 print(samples.shape)
